@@ -1,9 +1,14 @@
-name: Home page loads correctly with theme elements
+name: Home page loads correctly with Bugster documentation content
 page: /
 page_path: app/page.tsx
 task: Verify the home page loads and displays properly with theme elements
 steps:
 - Navigate to the home page '/'
-- Verify the page content is visible
-- Confirm theme-related elements are displayed properly
-expected_result: Home page should load with all visual elements displaying correctly
+- Verify the main heading 'Bugster Documentation' is visible
+- Confirm the welcome paragraph text is displayed correctly
+- Check that the 'What is Bugster?' section is present
+- Verify the 'Getting Started' section contains an ordered list with 4 steps
+- Confirm the 'Features' section displays an unordered list with 4 features
+- "Check that the footer text contains 'Bugster Documentation \u2022 Built with Turborepo'"
+expected_result: Home page should load with Bugster documentation content including
+  headings, description text, and structured sections

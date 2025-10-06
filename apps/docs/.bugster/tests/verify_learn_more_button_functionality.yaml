@@ -1,0 +1,13 @@
+name: Verify Learn More button functionality
+page: home-page
+page_path: app/page.tsx
+task: Verify that the "Learn More" button exists and is clickable
+steps:
+- Navigate to the home page '/'
+- Verify the 'Bugster Documentation' heading is displayed
+- Scroll down to the bottom of the feature sections
+- Locate the 'Learn More' text
+- Verify that the 'Learn More' text is clickable
+- Confirm that the 'Learn More' element is properly styled and visible
+expected_result: The "Learn More" button should be visible and clickable on the home
+  page
