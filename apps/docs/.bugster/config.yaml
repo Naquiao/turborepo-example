@@ -1,0 +1,36 @@
+# Bugster Configuration File
+# This file contains your project configuration and test execution preferences.
+# Important: Commit this file to your repository for CI/CD integration to work properly.
+
+# Project Information
+project_name: docs
+project_id: docs-1759783918
+base_url: "http://localhost:3001"
+
+# Project Authentication
+# credentials:
+#   - id: admin
+#     username: ${BUGSTER_USERNAME}
+#     password: ${BUGSTER_PASSWORD}
+
+# Vercel Configuration
+# You can create the Vercel Protection Bypass Secret for Automation in this link:
+# https://vercel.com/d?to=/[team]/[project]/settings/deployment-protection&title=Deployment+Protection+settings
+# x-vercel-protection-bypass: ${VERCEL_BYPASS_SECRET}
+
+
+# Test Execution Preferences
+# Uncomment and modify the options below to customize test execution behavior.
+# CLI options will override these settings when specified.
+# preferences:
+#   tests:
+#     always_run:
+#       - test1.yaml              # Don't include the .bugster/tests/ prefix
+#       - test2.yaml              # Don't include the .bugster/tests/ prefix
+#     limit: 5                    # Maximum number of tests to run
+#     headless: false             # Run tests in headless mode
+#     silent: false               # Run tests in silent mode
+#     verbose: false              # Enable verbose output
+#     only_affected: false        # Only run tests for affected files
+#     parallel: 5                 # Maximum number of concurrent tests
+#     output: bugster_output.json # Save test results to JSON file

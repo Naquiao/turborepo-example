@@ -1,0 +1,9 @@
+name: Home page loads correctly with theme elements
+page: /
+page_path: app/page.tsx
+task: Verify the home page loads and displays properly with theme elements
+steps:
+- Navigate to the home page '/'
+- Verify the page content is visible
+- Confirm theme-related elements are displayed properly
+expected_result: Home page should load with all visual elements displaying correctly

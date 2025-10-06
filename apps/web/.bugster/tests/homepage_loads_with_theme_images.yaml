@@ -1,0 +1,9 @@
+name: Homepage loads with theme images
+page: /
+page_path: app/page.tsx
+task: Verify the homepage loads correctly with theme images
+steps:
+- Navigate to the homepage
+- Verify the page content is visible
+- Verify theme images are displayed correctly
+expected_result: Homepage displays with appropriate theme images and styling

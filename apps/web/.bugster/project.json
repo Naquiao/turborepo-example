@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "timestamp": 1759784354258,
+    "git": {
+      "branch": "main",
+      "commit": "f6af21b175091574a3fcb7d32094ad6adce1c762"
+    }
+  },
+  "data": {
+    "frameworks": [
+      {
+        "id": "next",
+        "name": "Next.js",
+        "dir_path": "/Users/nacho/Naquiao/demo/turborepo-example/apps/web/"
+      }
+    ],
+    "commands": {
+      "test": {
+        "firstExecuted": true
+      }
+    }
+  }
+}
